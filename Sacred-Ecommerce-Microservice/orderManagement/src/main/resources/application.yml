@@ -1,0 +1,33 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: "ordermanagement"
+
+  profiles:
+    active: "default"
+
+  config:
+    import: "optional:configserver:http://localhost:8071"
+
+  jpa:
+    database: h2
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: 'sa'
+    password:
+
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+
+products:
+  message: "hello"

@@ -1,0 +1,44 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: "products"
+
+  profiles:
+    active: "prod"
+
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+  jpa:
+    database: h2
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: 'sa'
+    password:
+
+  rabbitmq:
+    host: "localhost"
+    port: 5672
+    username: "guest"
+    password: "guest"
+    cloud:
+      bus:
+        enabled: true
+        refresh:
+          enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+pagingSorting:
+  sortBy: "createdAt"

@@ -1,0 +1,41 @@
+  accounts:
+    image: winstyngyen/accounts:s6
+    container_name: accounts-ms
+    ports:
+      - "8080:8080"
+    depends_on:
+      configserver:
+        condition: service_healthy
+    extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+    environment:
+      SPRING_APPLICATION_NAME: "accounts"
+
+  loans:
+    image: winstyngyen/loans:s6
+    container_name: loans-ms
+    ports:
+      - "8090:8090"
+    depends_on:
+      configserver:
+        condition: service_healthy
+    extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+    environment:
+      SPRING_APPLICATION_NAME: "loans"
+
+  cards:
+    image: winstyngyen/cards:s6
+    container_name: cards-ms
+    ports:
+      - "9000:9000"
+    depends_on:
+      configserver:
+        condition: service_healthy
+    extends:
+      file: common-config.yml
+      service: microservice-configserver-config
+    environment:
+      SPRING_APPLICATION_NAME: "cards"

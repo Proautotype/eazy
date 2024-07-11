@@ -1,0 +1,42 @@
+name: sacred-ecommerce-microservices
+services:
+  products:
+    image: winstyngyen/products:v1
+    container_name: products_ms
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - sacredEcommerce
+
+  carts:
+    image: winstyngyen/carts:v1
+    container_name: carts_ms
+    ports:
+      - "8070:8070"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - sacredEcommerce
+
+  orders:
+    image: winstyngyen/orderManagement:v1
+    container_name: order_ms
+    ports:
+      - "9000:9000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - sacredEcommerce
+
+networks:
+  sacredEcommerce:
+    driver: "bridge"
+

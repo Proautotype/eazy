@@ -1,0 +1,531 @@
+Starting a Gradle Daemon, 1 busy and 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+> Task :compileJava UP-TO-DATE
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+
+> Task :jibDockerBuild
+
+Containerizing application to Docker daemon as [36mwinstyngyen/cards:s7[0m...
+Base image 'eclipse-temurin:17-jre' does not use a specific image digest - build may not be reproducible
+[1mExecuting tasks:[0m
+[1m[                              ] 0.0% complete[0m
+[1m> building image to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[                              ] 0.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[                              ] 0.0% complete[0m
+[1m> trying mirrors[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==                            ] 5.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==                            ] 5.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m> launching application layer builders[0m
+[1m[0m
+[5A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==                            ] 5.0% complete[0m
+[1m> launching application layer builders[0m
+[1m> pulling base image manifest and container config[0m
+[1m[0m
+[5A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==                            ] 5.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m> building dependencies layer[0m
+[1m[0m
+[5A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==                            ] 5.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m> building dependencies layer[0m
+[1m> building resources layer[0m
+[1m[0m
+[6A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==                            ] 5.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m> building dependencies layer[0m
+[1m> building resources layer[0m
+[1m> building classes layer[0m
+[1m[0m
+[7A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==                            ] 5.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m> building dependencies layer[0m
+[1m> building resources layer[0m
+[1m> building classes layer[0m
+[1m> building jvm arg files layer[0m
+[1m[0m
+[8A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=====                         ] 15.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m> building dependencies layer[0m
+[1m> building jvm arg files layer[0m
+[1m[0m
+[6A[0J
+[1A[1mExecuting tasks:[0m
+[1m[======                        ] 20.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m> building dependencies layer[0m
+[1m[0m
+[5A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=====                         ] 15.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m> building dependencies layer[0m
+[1m> building jvm arg files layer[0m
+[1m[0m
+[6A[0J
+[1A[1mExecuting tasks:[0m
+[1m[========                      ] 25.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========                     ] 30.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1AThe base image requires auth. Trying again for eclipse-temurin:17-jre...
+[1mExecuting tasks:[0m
+[1m[=========                     ] 30.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1AThe credential helper (docker-credential-desktop) has nothing for server URL: registry-1.docker.io
+
+Got output:
+
+credentials not found in native keychain
+
+[1mExecuting tasks:[0m
+[1m[=========                     ] 30.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1AThe credential helper (docker-credential-desktop) has nothing for server URL: registry.hub.docker.com
+
+Got output:
+
+credentials not found in native keychain
+
+[1mExecuting tasks:[0m
+[1m[=========                     ] 30.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1AUsing credentials from Docker config (/Users/tkdeq10494/.docker/config.json) for eclipse-temurin:17-jre
+[1mExecuting tasks:[0m
+[1m[=========                     ] 30.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========                     ] 30.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m[0m
+[4A[0J
+[1AUsing base image with digest: sha256:30adca61bbb34ff4aeade65e370f37b378ac3320793820f4d9bb878580024772
+[1mExecuting tasks:[0m
+[1m[=========                     ] 30.0% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========                    ] 32.5% complete[0m
+[1m> pulling base image manifest and container config[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========                    ] 32.5% complete[0m
+[1m> pulling platform-specific manifests and conta...[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========                    ] 33.8% complete[0m
+[1m> pulling platform-specific manifests and conta...[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========                    ] 33.8% complete[0m
+[1m> pull container configuration sha256:363539916...[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========                   ] 35.0% complete[0m
+[1m> pulling base image manifest[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> building image to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> scheduling obtaining base images layers[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> launching base image layer pullers[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:e1ea69141092...[0m
+[1m> checking base image layer sha256:9b857f539cb1...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[9A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:e1ea69141092...[0m
+[1m> checking base image layer sha256:9b857f539cb1...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[9A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:e1ea69141092...[0m
+[1m> checking base image layer sha256:9b857f539cb1...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[9A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:e1ea69141092...[0m
+[1m> checking base image layer sha256:9b857f539cb1...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[9A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:e1ea69141092...[0m
+[1m> checking base image layer sha256:9b857f539cb1...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[9A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============                  ] 40.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:e1ea69141092...[0m
+[1m> checking base image layer sha256:9b857f539cb1...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[9A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==============                ] 48.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[7A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==============                ] 48.0% complete[0m
+[1m> checking base image layer sha256:708ff3b02f8b...[0m
+[1m> checking base image layer sha256:cb850744c992...[0m
+[1m> checking base image layer sha256:5d590beb7c55...[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[7A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=================             ] 56.0% complete[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==================            ] 60.0% complete[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==================            ] 60.0% complete[0m
+[1m> scheduling building manifests[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==================            ] 60.0% complete[0m
+[1m> building image format[0m
+[1m[0m
+[4A[0J
+[1A
+[1mExecuting tasks:[0m
+[1m[==================            ] 60.0% complete[0m
+[1m> building image format[0m
+[1m[0m
+[4A[0J
+[1AContainer entrypoint set to [java, -cp, @/app/jib-classpath-file, com.eazybytes.cards.CardsApplication]
+[1mExecuting tasks:[0m
+[1m[==================            ] 60.0% complete[0m
+[1m> building image format[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[========================      ] 80.0% complete[0m
+[1m> building image to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[========================      ] 80.0% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[========================      ] 80.6% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[========================      ] 81.0% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[========================      ] 81.5% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 81.8% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 82.2% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 82.5% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 82.9% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 83.3% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 83.7% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 83.9% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 84.2% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 84.6% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[=========================     ] 85.0% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========================    ] 85.4% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========================    ] 85.7% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========================    ] 86.3% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========================    ] 86.8% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========================    ] 87.3% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==========================    ] 87.9% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========================   ] 88.4% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========================   ] 89.0% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========================   ] 89.5% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========================   ] 90.1% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========================   ] 90.7% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========================   ] 91.2% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[===========================   ] 91.7% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================  ] 92.1% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================  ] 92.4% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================  ] 92.9% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================  ] 93.4% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================  ] 93.9% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================  ] 94.4% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================= ] 95.0% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================= ] 95.5% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================= ] 96.1% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================= ] 96.6% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================= ] 97.1% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================= ] 97.5% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[============================= ] 98.1% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==============================] 98.6% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==============================] 99.3% complete[0m
+[1m> loading to Docker daemon[0m
+[1m[0m
+[4A[0J
+[1A[1mExecuting tasks:[0m
+[1m[==============================] 100.0% complete[0m
+[1m[0m
+[3A[0J
+[1A
+[1mExecuting tasks:[0m
+[1m[==============================] 100.0% complete[0m
+[1m[0m
+[3A[0J
+[1ABuilt image to Docker daemon as [36mwinstyngyen/cards:s7[0m
+[1mExecuting tasks:[0m
+[1m[==============================] 100.0% complete[0m
+[1m[0m
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.8/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 34s
+3 actionable tasks: 1 executed, 2 up-to-date
